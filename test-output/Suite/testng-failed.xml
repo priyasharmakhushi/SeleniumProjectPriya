@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="chrome browser Testing(failed)">
+    <parameter name="baseurl" value="https://www.google.com/"/>
+    <parameter name="browser" value="chrome1"/>
+    <classes>
+      <class name="day3.CBT">
+        <methods>
+          <include name="Open_Web_Browser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day3.CBT -->
+    </classes>
+  </test> <!-- chrome browser Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
